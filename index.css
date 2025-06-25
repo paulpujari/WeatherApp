@@ -1,0 +1,101 @@
+body {
+    background: url('./Assets/weather.jpg') no-repeat bottom center fixed;
+    background-size: cover;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+    margin: 0;
+    min-height: 100vh;
+}
+
+
+.searchBar{
+    height:10vh;
+    background:rgba(0, 0, 0, 0.0);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.searchBarParentDiv{
+    width:50%;
+    position: relative;
+    height: fit-content;
+}
+.inputfield{
+    width:100% ;
+    border-radius:25px;
+    padding:10px;
+}
+.searchIcon
+{
+    position:absolute;
+    right: 10px;
+    top: 6px;
+}
+.searchIcon:hover{
+    cursor: pointer;
+}
+.mainContent{
+    height:90vh;
+}
+
+.leftDiv{
+    width: 30%;
+    height :100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.rightDiv{
+    width:70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.leftChild{
+    background: rgba(212,212,212,0.4);
+    width:85%;
+    height: 40vh;
+    margin: auto;
+    border-radius:15px;
+}
+
+.currentTempDiv h6{
+    font-size: larger;
+}
+
+#cityName{
+    font-size: xx-large;
+}
+
+#cityName{
+    font-size: x-large;
+}
+
+#comingFiveDays{
+    font-size:large;
+}
+
+.rightRow{
+    height:27vh;
+    width:100%;
+    border :2px white solid;
+}
+
+.extraMetric{
+    background: rgba(212,212,212,0.4);
+    padding: 5% 2% ;
+    width: fit-content;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.rowTwoDiv{
+     background: rgba(212,212,212,0.4);
+     backdrop-filter: blur(15px);
+     width:45%;
+     height:85%;
+     border-radius: 15px;
+}
