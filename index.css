@@ -37,6 +37,7 @@ body {
 }
 .mainContent{
     height:90vh;
+    flex-direction: row;
 }
 
 .leftDiv{
@@ -50,7 +51,7 @@ body {
     width:70%;
     height: 100%;
     display: flex;
-    flex-direction: column;
+    margin: auto;
     gap:20px;
 }
 
@@ -81,7 +82,7 @@ body {
 .rightRow{
     height:27vh;
     width:100%;
-    border :2px white solid;
+    padding-right: 15px;
 }
 
 .extraMetric{
@@ -98,4 +99,83 @@ body {
      width:45%;
      height:85%;
      border-radius: 15px;
+}
+.todayTemp{
+     background: rgba(212,212,212,0.4);
+    width: fit-content;
+    padding: 15px;
+    border-radius: 15px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+
+}
+
+@media only screen and (max-width:767px) {
+    .leftDiv{
+    width: 100%;
+    height :100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+}
+.rightDiv{
+    width: 100%;
+    height :100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+}
+    .rightDiv
+    {
+        width:100%;
+    }
+    .mainContent{
+    height:90vh;
+    flex-direction: column;
+}
+
+    .searchBar{
+    width:100%;
+    }
+    
+    .searchBarParentDiv{
+    width:85%;
+    }
+    .rowOne{
+        /* flex-direction: column; */
+        flex-wrap: wrap ;
+        width:85%;
+        margin:auto;
+    }
+    .rowTwo{
+        flex-direction: column;
+    }
+    .rowTwo{
+        gap: 10px;
+        height:30vh;
+    }
+    .rowTwoDiv{
+     background: rgba(212,212,212,0.4);
+     backdrop-filter: blur(15px);
+     width:85%;
+     height:85%;
+     border-radius: 15px;
+    }
+    .rowThree{
+        width: 85%;
+        margin: auto;
+    }
+    .todayTempParentDiv{
+        width:100%;
+        flex-wrap:wrap;
+        margin: auto;
+        gap: 15px;
+    }
 }
