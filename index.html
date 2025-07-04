@@ -9,12 +9,15 @@
   </head>
   <body>
     <div class="searchBar">
-        <div class="border searchBarParentDiv">
+        <div class="searchBarParentDiv">
             <input type="text" class="inputfield">
             <img src ="./Assets/search.png" alt ="" width = "35px" class="searchIcon">
         </div>
     </div>
     <div class="mainContent d-flex" >
+        
+        
+        
         <div class="leftDiv">
             <div class="currentTempDiv leftChild p-3 d-flex flex-column gap-2">
                 <h6 class="m-0" id="cityName">City Name</h6>
@@ -78,7 +81,15 @@
                 </div>
             </div>
         </div>
+
+
+
+
+
+
         <div class="rightDiv">
+            
+            
             <div class="rightRow rowOne d-flex gap-2 justify-content-between align-items-center">
                 <div class="extraMetric d-flex gap-3" >
                     <img src="./Assets/wind.png" alt="" width="35px">
@@ -115,48 +126,94 @@
             <div class="rightRow rowTwo d-flex justify-content-between align-items-center">
                 <div class="AQI rowTwoDiv p-3 d-flex flex-column gap-2">
                     <h5>Air Quality Index (AQI)</h5>
-                    <div class ="d-flex align-items-center justify-content-between">
+                    <div class ="d-flex align-items-center ">
                         <img src="./Assets/wind1.png" alt ="" width ="40px">
                         <div class="text-center">
-                            <h6>AQI Metric</h6>
+                            <h6> AQI Metric </h6>
                             <h6>0</h6>
                         </div>
                         <div class="text-center">
-                            <h6>AQI Metric</h6>
+                            <h6> AQI Metric </h6>
                             <h6>0</h6>
                         </div>
                         <div class="text-center">
-                            <h6>AQI Metric</h6>
+                            <h6> AQI Metric </h6>
                             <h6>0</h6>
                         </div>
                         <div class="text-center">
-                            <h6>AQI Metric</h6>
+                            <h6> AQI Metric </h6>
                             <h6>0</h6>
                         </div>
                     </div>
                 </div>
+                
+                
                 <div class="sunRise rowTwoDiv p-3 gap-2">
                     <h5 class="m-0">Sunrise & Sunset</h5>
                     <div class="d-flex justify-content-between">
-                        <div class="sunRise d-flex gap-1 align-items-center" >
-                        <img src="./Assets/sun.png" alt="" width="75px">
-                        <div>
-                            <h6 class="m-0">Sunrise</h6>
-                            <h5 class="m-0">6:00 AM</h5>
+
+
+                        <div class="sunriseDiv d-flex gap-1 align-items-center" >
+                            <img src="./Assets/sun.png" alt="" width="75px">
+                            <div>
+                                <h6 class="m-0">Sunrise</h6>
+                                <h5 class="m-0">6:00 AM</h5>
+                            </div>
                         </div>
+
+
+                        <div class="sunsetDiv d-flex gap-1 align-items-center">
+                            <img src="./Assets/moon.png" alt="" width="63px">
+                            <div class="d-flex flex-column gap-2">
+                                <h6 class="m-0">Sunset</h6>
+                                <h5 class="m-0">6:00 PM</h5>
+                            </div>
                         </div>
-                        <div class="sunSet d-flex gap-1 align-items-center">
-                        <img src="./Assets/moon.png" alt="" width="63px">
-                        <div class="d-flex flex-column gap-2">
-                            <h6 class="m-0">Sunset</h6>
-                            <h5 class="m-0">6:00 PM</h5>
-                        </div>
-                        </div>
+
+
                     </div>
                 </div>
 
             </div>
-            <div class="rightRow rowThree"></div>
+            
+            
+            
+            
+            <div class="rightRow rowThree d-flex flex-column gap-2">
+                <h5 class="m-0">Today</h5>
+                <div class="d-flex justify-content-between">
+                    <div class="todayTemp">
+                        <h6 class="m-0">9:00AM</h6>
+                        <img src="./Assets/cloudy.png" alt="" width="35px">
+                        <h5 class="m-0">15&deg;C</h5>
+                    </div>
+                    <div class="todayTemp">
+                        <h6 class="m-0">9:00AM</h6>
+                        <img src="./Assets/cloudy.png" alt="" width="35px">
+                        <h5 class="m-0">15&deg;C</h5>
+                    </div>
+                    <div class="todayTemp">
+                        <h6 class="m-0">9:00AM</h6>
+                        <img src="./Assets/cloudy.png" alt="" width="35px">
+                        <h5 class="m-0">15&deg;C</h5>
+                    </div>
+                    <div class="todayTemp">
+                        <h6 class="m-0">9:00AM</h6>
+                        <img src="./Assets/cloudy.png" alt="" width="35px">
+                        <h5 class="m-0">15&deg;C</h5>
+                    </div>
+                    <div class="todayTemp">
+                        <h6 class="m-0">9:00AM</h6>
+                        <img src="./Assets/cloudy.png" alt="" width="35px">
+                        <h5 class="m-0">15&deg;C</h5>
+                    </div>
+                    <div class="todayTemp">
+                        <h6 class="m-0">9:00AM</h6>
+                        <img src="./Assets/cloudy.png" alt="" width="35px">
+                        <h5 class="m-0">15&deg;C</h5>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </div>

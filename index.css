@@ -81,7 +81,6 @@ body {
 .rightRow{
     height:27vh;
     width:100%;
-    border :2px white solid;
 }
 
 .extraMetric{
@@ -98,4 +97,19 @@ body {
      width:45%;
      height:85%;
      border-radius: 15px;
+}
+
+.todayTemp{
+    background: rgba(212,212,212,0.4);
+    width: fit-content;
+    padding: 15px;
+    border-radius: 15px;
+    backdrop-filter: blur(15px);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+    justify-content: center;
+
 }
