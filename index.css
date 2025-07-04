@@ -4,6 +4,7 @@ body {
     font-family: 'Arial Narrow Bold', sans-serif;
     color: aliceblue;
     margin: 0;
+    margin-right: 8px;
     min-height: 100vh;
 }
 
@@ -70,10 +71,6 @@ body {
     font-size: xx-large;
 }
 
-#cityName{
-    font-size: x-large;
-}
-
 #comingFiveDays{
     font-size:large;
 }
@@ -112,4 +109,64 @@ body {
     align-items: center;
     justify-content: center;
 
+}
+
+@media only screen and (max-width:767px){
+    .leftDiv{
+    width: 100%;
+    height :100%;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    margin-top: 15px;
+}
+    .rightDiv{
+        width:100%;
+    }
+    .leftDiv{
+        width:100%;
+    }
+    .mainContent{
+        height:90vh;
+        flex-direction: column;
+    }
+    .searchBar{
+        width: 100%;
+    }
+    .searchBarParentDiv{
+        width: 85%;
+        height: fit-content;
+        position: relative;
+    }
+
+    .rowOne{
+        flex-wrap: wrap;
+        width: 85%;
+        margin: auto;
+    }
+    .rowTwo{
+        flex-direction: column;
+    }
+    .rowTwo{
+        gap:10px;
+        height: 30vh;
+    }
+
+    .rowTwoDiv{
+        background: rgba(212,212,212,0.4);
+        backdrop-filter: blur(15px);
+        width:85%;
+        height:85%;
+        border-radius: 15px;
+    }
+    .rowThree{
+        width: 85%;
+        margin:auto;
+    }
+    .todayTempParentDiv{
+        width: 100%;
+        flex-wrap: wrap;
+        margin: auto;
+        gap :15px;
+    }
 }
